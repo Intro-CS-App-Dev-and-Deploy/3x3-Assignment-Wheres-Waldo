@@ -142,7 +142,8 @@ PFont BUTTONendGameFont;
 
 void setup ()
 {
-  fullScreen(); //CANT PUT IN A TAB 
+  //fullScreen(); //CANT PUT IN A TAB 
+  size(600, 500);
   appWidth=width;
   appHeight=height;
   //Display Orientation: Landscape (displayWidth>displayHeight), not portrait or square
